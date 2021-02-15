@@ -1,0 +1,251 @@
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for io.github.denisabramovdm:task1_calc:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.version' for org.jetbrains:annotations:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 31, column 22
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 38, column 21
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ----------------< io.github.denisabramovdm:task1_calc >-----------------
+[INFO] Building task1_calc 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.8.4:prepare-agent (default) @ task1_calc ---
+[INFO] argLine set to -javaagent:C:\\Users\\Tom\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.4\\org.jacoco.agent-0.8.4-runtime.jar=destfile=D:\\Обучение\\Projects\\rpaS3\\homework\\java\\denisAbramov\\task1_calc\\target\\jac
+oco.exec
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ task1_calc ---
+[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ task1_calc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ task1_calc ---
+[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ task1_calc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ task1_calc ---
+[INFO] Surefire report directory: D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running io.github.denisabramovdm.service.CalcTest
+100.0
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.8.4:report (report) @ task1_calc ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ task1_calc ---
+[INFO] Building jar: D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\target\task1_calc-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.8.4:check (jacoco-check) @ task1_calc ---
+[INFO] Skipping JaCoCo execution due to missing execution data file:D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\target\jacoco.exec
+[INFO]
+[INFO] ----------------< io.github.denisabramovdm:task1_calc >-----------------
+[INFO] Building task1_calc 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- sonar-maven-plugin:3.8.0.2131:sonar (default-cli) @ task1_calc ---
+[INFO] User cache: C:\Users\Tom\.sonar\cache
+[INFO] SonarQube version: 8.5.0
+[INFO] Default locale: "en_US", source code encoding: "windows-1251" (analysis is platform dependent)
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=671ms
+[INFO] Server id: 1BD809FA-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: C:\Users\Tom\.sonar\cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=173ms
+[INFO] Load/download plugins (done) | time=16721ms
+[INFO] Loaded core extensions: developer-scanner
+[INFO] JavaScript/TypeScript frontend is enabled
+[INFO] Load project settings for component key: 'denis-abramov-dm'
+[INFO] Load project settings for component key: 'denis-abramov-dm' (done) | time=123ms
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=3ms
+[INFO] Project key: denis-abramov-dm
+[INFO] Base dir: D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc
+[INFO] Working dir: D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\target\sonar
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=88ms
+[INFO] Check ALM binding of project 'denis-abramov-dm'
+[INFO] Detected project binding: NOT_BOUND
+[INFO] Check ALM binding of project 'denis-abramov-dm' (done) | time=96ms
+[INFO] Load project pull requests
+[INFO] Load project pull requests (done) | time=95ms
+[INFO] Load branch configuration
+[INFO] Load branch configuration (done) | time=4ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=170ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=3218ms
+[INFO] Organization key: denis-abramov-dm
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 7 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Sonar way
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module task1_calc
+[INFO] JavaScript/TypeScript frontend is enabled
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=95ms
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 11
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=10ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=2ms
+[INFO] Java Main Files AST scan
+[INFO] 3 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=141ms
+[INFO] 3/3 source files have been analyzed
+[INFO] Java Main Files AST scan (done) | time=1772ms
+[INFO] Java Test Files AST scan
+[INFO] 1 source files to be analyzed
+[INFO] Java Test Files AST scan (done) | time=83ms
+[INFO] 1/1 source files have been analyzed
+[INFO] Java Generated Files AST scan
+[INFO] 0 source files to be analyzed
+[INFO] Java Generated Files AST scan (done) | time=6ms
+[INFO] 0/0 source files have been analyzed
+[INFO] Sensor JavaSquidSensor [java] (done) | time=2277ms
+[INFO] Sensor SonarCSS Rules [cssfamily]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor SonarCSS Rules [cssfamily] (done) | time=5ms
+[INFO] Sensor C# Properties [csharp]
+[INFO] Sensor C# Properties [csharp] (done) | time=4ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\target\surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=93ms
+[INFO] Sensor Removed properties sensor [java]
+[WARNING] Property 'sonar.jacoco.reportPath' is no longer supported. Use JaCoCo's xml report and sonar-jacoco plugin.
+[INFO] Sensor Removed properties sensor [java] (done) | time=5ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] 1 source files to be analyzed
+[INFO] Sensor JavaXmlSensor [java] (done) | time=189ms
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=6ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1 source files to be analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=151ms
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor VB.NET Properties [vbnet]
+[INFO] Sensor VB.NET Properties [vbnet] (done) | time=4ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=13ms
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend]
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=5ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\target\sonar\ucfg2\java
+[INFO] Read 13 type definitions
+[INFO] Reading UCFGs from: D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\target\sonar\ucfg2\java
+[INFO] 21:25:16.5586341 Building Runtime Type propagation graph
+[INFO] 21:25:16.5806204 Running Tarjan on 30 nodes
+[INFO] 21:25:16.591614 Tarjan found 30 components
+[INFO] 21:25:16.6006094 Variable type analysis: done
+[INFO] 21:25:16.6056065 Building Runtime Type propagation graph
+[INFO] 21:25:16.6195971 Running Tarjan on 30 nodes
+[INFO] 21:25:16.6225947 Tarjan found 30 components
+[INFO] 21:25:16.6245937 Variable type analysis: done
+[INFO] Analyzing 13 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] rule: S2076 done
+[INFO] rule: S2091, entrypoints: 0
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] rule: S5334 done
+[INFO] rule: S6096, entrypoints: 0
+[INFO] rule: S6096 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=704ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\target\ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\target\ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=11ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\target\sonar\ucfg2\php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\target\sonar\ucfg2\php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=9ms
+[INFO] Sensor PythonSecuritySensor [security]
+[INFO] Reading type hierarchy from: D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\target\sonar\ucfg2\python
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\target\sonar\ucfg2\python
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PythonSecuritySensor [security] (done) | time=11ms
+[INFO] Sensor JsSecuritySensor [security]
+[INFO] Reading type hierarchy from: D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\target\sonar\ucfg2\js
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: D:\Обучение\Projects\rpaS3\homework\java\denisAbramov\task1_calc\target\sonar\ucfg2\js
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor JsSecuritySensor [security] (done) | time=10ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=19ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=22ms
+[INFO] SCM Publisher SCM provider for this project is: git
+[INFO] SCM Publisher 1 source file to be analyzed
+[INFO] SCM Publisher 0/1 source files have been analyzed (done) | time=409ms
+[WARNING] Missing blame information for the following files:
+[WARNING]   * pom.xml
+[WARNING] This may lead to missing/broken features in SonarCloud
+[INFO] CPD Executor 1 file had no CPD blocks
+[INFO] CPD Executor Calculating CPD for 2 files
+[INFO] CPD Executor CPD calculation finished (done) | time=7ms
+[INFO] Analysis report generated in 254ms, dir size=188 KB
+[INFO] Analysis report compressed in 259ms, zip size=43 KB
+[INFO] Analysis report uploaded in 340ms
+[INFO] ANALYSIS SUCCESSFUL, you can find the results at: https://sonarcloud.io/dashboard?id=denis-abramov-dm
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AXem8It1He4vdk27LSpe
+[INFO] Analysis total time: 13.161 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  39.348 s
+[INFO] Finished at: 2021-02-15T21:25:18+03:00
+[INFO] ------------------------------------------------------------------------
